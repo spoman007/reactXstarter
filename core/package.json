@@ -1,0 +1,15 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sandeep Poman",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.4.2",
+    "redux": "^4.0.0-rc.1"
+  }
+}
