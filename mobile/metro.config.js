@@ -5,6 +5,7 @@
  * @format
  */
 
+
 const path = require('path');
 
 // react-native >= 0.57
