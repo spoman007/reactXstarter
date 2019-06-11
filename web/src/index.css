@@ -6,9 +6,70 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 200px;  
+  margin-top: 10px; 
+}
+
+ul{
+  flex: 1;
+  width: 20%;
+}
+
+
+button {
+  display: inline-block;
+  border: none;
+  margin-left: 3px;
+  padding-left: 5px; 
+  text-decoration: none;
+  background: #0069ed;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 2px;
+}
+
+button:hover,
+button:focus {
+  background: #0053ba;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+button:disabled{
+  background: #52575f;
+}
+
+.footer{
+  display: flex;
+}
+
+input{
+  width: 200px;
+  border: none; /* <-- This thing here */
+      border:solid 1px #ccc;
+      border-radius: 4px;
 }
