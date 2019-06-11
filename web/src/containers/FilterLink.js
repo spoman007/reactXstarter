@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect, useSelector, useDispatch } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import { setVisibilityFilter } from 'core'
 import Link from '../components/Link'
 
