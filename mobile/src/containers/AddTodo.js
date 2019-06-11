@@ -1,10 +1,11 @@
 import { Button, TextInput, View, StyleSheet } from 'react-native';
 import React, { useState } from 'react';
-import { connect } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { addTodo } from 'core'
 
-const AddTodo = ({ dispatch }) => {
+export default () => {
     const [text, setText] = useState('');
+    const dispatch = useDispatch()
     return (
         <View style={styles.container}>
             <TextInput
@@ -23,7 +24,8 @@ const AddTodo = ({ dispatch }) => {
                 title="Add Todo"
                 color="#841584"
                 style={{ height: 40}}
-            /></View>
+            />
+        </View>
     )
 }
 
@@ -33,5 +35,3 @@ const styles = StyleSheet.create({
         flexDirection: 'row'
     },
 });
-
-export default connect()(AddTodo)

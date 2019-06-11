@@ -1,10 +1,10 @@
 import React from 'react'
-import { connect } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { addTodo } from 'core'
 
-const AddTodo = ({ dispatch }) => {
+export default () => {
   let input
-
+  const dispatch = useDispatch()
   return (
     <div>
       <form onSubmit={e => {
@@ -23,5 +23,3 @@ const AddTodo = ({ dispatch }) => {
     </div>
   )
 }
-
-export default connect()(AddTodo)
