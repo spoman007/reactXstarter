@@ -19,7 +19,9 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         flexDirection: 'column',
         justifyContent: 'space-around',
-        marginTop: 40,
+        paddingTop: 100,
+        paddingBottom: 50,
+        backgroundColor: '#f97272'
     },
 });
 

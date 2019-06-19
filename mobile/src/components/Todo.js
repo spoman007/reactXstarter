@@ -2,12 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Text } from "react-native"
 
-const Todo = ({ onClick, completed, text }) => (
+const Todo = ({ onClick, completed, text, id }) => (
     <Text
+        color='white'
         onPress={onClick}
         style={{
             fontSize: 20,
-            textDecorationLine: completed ? 'line-through' : 'none'
+            textDecorationLine: completed ? 'line-through' : 'none',
+            color: 'white',
+            paddingBottom: 10
         }}>
         {text}
     </Text>

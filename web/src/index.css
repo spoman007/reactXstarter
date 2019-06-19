@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 12px;
+  background-color: #f97272
 }
 
 code {
@@ -19,12 +20,20 @@ code {
   flex-direction: column;
   align-items: center;
   min-height: 200px;  
-  margin-top: 10px; 
+  margin-top: 100px; 
 }
 
 ul{
   flex: 1;
-  width: 20%;
+  width: 19%;
+  color: white;
+  padding-bottom: 200px
+}
+
+li {
+  cursor: pointer;
+  text-transform: capitalize;
+  padding-top: 10px; 
 }
 
 
@@ -42,7 +51,9 @@ button {
               transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
-  border-radius: 2px;
+  border-radius: 5px;
+  height: 30px;
+  min-width: 40px;
 }
 
 button:hover,
@@ -69,7 +80,8 @@ button:disabled{
 
 input{
   width: 200px;
-  border: none; /* <-- This thing here */
+  border: none;
+  height: 30px;
       border:solid 1px #ccc;
       border-radius: 4px;
 }

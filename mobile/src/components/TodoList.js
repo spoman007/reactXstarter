@@ -5,7 +5,7 @@ import Todo from './Todo'
 
 const TodoList = ({ todos, toggleTodo }) => (
     <View style={styles.container}>
-        {todos.map(todo =>
+        {todos.map((todo) =>
             <Todo
                 key={todo.id}
                 {...todo}
@@ -27,8 +27,8 @@ TodoList.propTypes = {
 const styles = StyleSheet.create({
     container: {
         flexGrow: 1,
-        width: '70%',
-        marginTop: 20
+        width: '80%',
+        marginTop: 50
 
     },
 });

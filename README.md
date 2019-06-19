@@ -1,6 +1,8 @@
 # reactXstarter
 React + Redux + React Native Starter Kit with reusable business logic. Sample TODO app built in.
 
+![](/media/Screenshot.png)
+
 # What is this Repository?
 
 1. **Demo of how the code can be reused between React and React Native Application**

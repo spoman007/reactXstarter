@@ -9,7 +9,7 @@ export default () => {
     return (
         <View style={styles.container}>
             <TextInput
-                style={{ height: 40, borderColor: 'gray', borderWidth: 1, width: '60%' }}
+                style={styles.input}
                 onChangeText={(text) => setText(text)}
                 value={text}
             />
@@ -21,9 +21,9 @@ export default () => {
                     dispatch(addTodo(text))
                     setText('')
                 }}
+                color='white'
                 title="Add Todo"
-                color="#841584"
-                style={{ height: 40}}
+                style={{ height: 40 }}
             />
         </View>
     )
@@ -31,7 +31,10 @@ export default () => {
 
 const styles = StyleSheet.create({
     container: {
-        display:'flex',
+        display: 'flex',
         flexDirection: 'row'
     },
+    input: {
+        height: 40, borderColor: 'gray', borderWidth: 1, width: '60%', borderRadius: 10, backgroundColor:'white'
+    }
 });
