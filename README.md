@@ -29,10 +29,9 @@ React + Redux + React Native Starter Kit with reusable business logic. Sample TO
 
 
 # Other Options
-1. Use Learna and Yarn workspace to manage multiple packages. Here are couple of good implementations
-https://github.com/fixerteam/React-Native-monorepo
+1. Use Learna and Yarn workspace to manage multiple packages. Here are couple of good implementations  
+https://github.com/fixerteam/React-Native-monorepo  
 https://github.com/drgx/react-native-plus-web
 
-2. Use React Native Web
-
-    https://blog.logrocket.com/the-state-of-react-native-web-in-2019-6ab67ac5c51e/
+2. Use React Native Web  
+https://blog.logrocket.com/the-state-of-react-native-web-in-2019-6ab67ac5c51e/
