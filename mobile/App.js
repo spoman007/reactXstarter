@@ -1,11 +1,12 @@
-import { createStore } from 'redux'
+import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from 'react-redux'
 import React, { Component } from 'react';
 import { rootReducer } from 'core'
 import Root from './src/components/Root'
 
-const store = createStore(rootReducer,  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
-
+const store = configureStore({
+  reducer: rootReducer,
+});
 export default class App extends Component {
   render() {
 
