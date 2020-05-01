@@ -17,7 +17,9 @@ https://youtu.be/9S3mpotVgXg?t=1833
 2. **mobile**: Mobile app created using React Native cli
 3. **core**: The npm package which contains extracted business logic(Actions, Reducers etc). This is reused in both web and mobile
 
-
+# How to use
+1. `npm install` and `npm link` in Core
+2. `npm install` and `npm link core` in Web and Mobile
 
 
 # Sample Screenshots
